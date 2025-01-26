@@ -27,7 +27,7 @@ public abstract class Block extends Illustration{
     private String getRandomImagePath(){
         Random random = new Random();
         int blockNumber = random.nextInt(4) + 1;
-        return "/block" + blockNumber + ".png";
+        return "/Illustrations/block" + blockNumber + ".png";
     }
 
 

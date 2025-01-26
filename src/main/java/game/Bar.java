@@ -22,7 +22,7 @@ public class Bar extends Illustration{
 
     private void loadImage(){
         try {
-            var icon = new ImageIcon(getClass().getResource("/bar.png"));
+            var icon = new ImageIcon(getClass().getResource("/Illustrations/bar.png"));
             image = icon.getImage();
         } catch (NullPointerException e) {
             System.err.println("Error loading image");

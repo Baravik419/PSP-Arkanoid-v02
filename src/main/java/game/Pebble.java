@@ -31,7 +31,7 @@ public class Pebble extends Illustration{
         Random random = new Random();
         int pebbleNumber = random.nextInt(3) + 1; // Random num 1/3
         try {
-            var icon = new ImageIcon(getClass().getResource("/pebble" + pebbleNumber + ".png"));
+            var icon = new ImageIcon(getClass().getResource("/Illustrations/pebble" + pebbleNumber + ".png"));
             image = icon.getImage();
         } catch (NullPointerException e) {
             System.err.println("Error loading image");

@@ -17,8 +17,8 @@ public final class Constants {
     // Defaults
     public static final String FONT = "Minecraft";
     public static final Color FONT_COLOR_MAIN = new Color (0,0,0);
-    public static final Color FONT_COLOR_ACCENTS = new Color (255, 255, 255);
-    public static final Color BUTTON_COLOR_FILL = new Color (12, 64, 209);
+    public static final Color FONT_COLOR_ACCENTS = new Color (255, 0, 0);
+    public static final Color BUTTON_COLOR_FILL = new Color (0, 68, 255);
 
     // Window settings
     public static final int WIDTH = 500;
