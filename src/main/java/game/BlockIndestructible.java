@@ -1,6 +1,6 @@
 package game;
 
-import java.awt.Image;
+// Polimorfizmo pavyzdys
 
 public class BlockIndestructible extends Block {
 

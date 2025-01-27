@@ -6,6 +6,8 @@ import lombok.Setter;
 import java.awt.Image;
 import java.awt.Rectangle;
 
+//Enkapsuliacijos pavyzdys
+
 @Getter
 @Setter
 

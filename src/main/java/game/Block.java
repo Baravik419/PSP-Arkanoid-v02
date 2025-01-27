@@ -3,8 +3,12 @@ package game;
 import javax.swing.ImageIcon;
 import java.util.Random;
 
+//Abstract pavyzdys
+
 public abstract class Block extends Illustration{
 
+
+    //Enkapsuliacijos pavyzdys
     private boolean destroyed;
 
     public Block(int x, int y){
@@ -38,6 +42,9 @@ public abstract class Block extends Illustration{
     void setDestroyed(boolean boom){
         destroyed = boom;
     }
+
+
+    // Behavioral design pavyzdys
 
     public abstract void onHit();
 }

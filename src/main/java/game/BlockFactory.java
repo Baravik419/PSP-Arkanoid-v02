@@ -1,5 +1,7 @@
 package game;
 
+//Creational design pavyzdys
+
 public class BlockFactory {
     public static Block createBlock(int type, int x, int y) {
         return switch (type) {
